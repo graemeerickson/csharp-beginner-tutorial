@@ -6,10 +6,17 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            var number = "1234";
-            int i = Convert.ToInt32(number);
+            try
+            {
+                var number = "1234";
+                int b = Convert.ToByte(number);
 
-            Console.WriteLine(i);
+                Console.WriteLine(b);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("The number could not be converted to a byte.");
+            }
         }
     }
 }
