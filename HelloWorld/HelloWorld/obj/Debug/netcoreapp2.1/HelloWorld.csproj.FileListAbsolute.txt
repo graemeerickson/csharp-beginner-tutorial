@@ -1,0 +1,11 @@
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/bin/Debug/netcoreapp2.1/HelloWorld.deps.json
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/bin/Debug/netcoreapp2.1/HelloWorld.runtimeconfig.json
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/bin/Debug/netcoreapp2.1/HelloWorld.runtimeconfig.dev.json
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/bin/Debug/netcoreapp2.1/HelloWorld.dll
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/bin/Debug/netcoreapp2.1/HelloWorld.pdb
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csprojAssemblyReference.cache
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.AssemblyInfoInputs.cache
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.AssemblyInfo.cs
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.dll
+/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/obj/Debug/netcoreapp2.1/HelloWorld.pdb

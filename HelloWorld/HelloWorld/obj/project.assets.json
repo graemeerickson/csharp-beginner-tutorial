@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Graeme/code/csharp-beginner-tutorial/HelloWorld/HelloWorld/HelloWorld.csproj",
+      "projectUniqueName": "/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "/Users/Graeme/code/csharp-beginner-tutorial/HelloWorld/HelloWorld/HelloWorld.csproj",
+      "projectPath": "/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/HelloWorld.csproj",
       "packagesPath": "/Users/Graeme/.nuget/packages/",
-      "outputPath": "/Users/Graeme/code/csharp-beginner-tutorial/HelloWorld/HelloWorld/obj",
+      "outputPath": "/Users/Graeme/code/csharp-fundamentals/HelloWorld/HelloWorld/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
