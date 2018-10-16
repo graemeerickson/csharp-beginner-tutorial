@@ -6,17 +6,30 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            try
-            {
-                string str = "true";
-                bool b = Convert.ToBoolean(str);
+            var person = new Person();
+            person.Name = "Graeme";
+            person.Introduce();
 
-                Console.WriteLine(b);
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("The string could not be converted to a boolean.");
-            }
+            int result = Calculator.Add(1, 2);
+            Console.WriteLine("Result: " + result);
+        }
+    }
+
+    public class Person
+    {
+        public string Name;
+
+        public void Introduce()
+        {
+            Console.WriteLine("Hi, my name is " + Name);
+        }
+    }
+
+    public class Calculator
+    {
+        public static int Add(int a, int b)
+        {
+            return a + b;
         }
     }
 }
