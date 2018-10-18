@@ -6,13 +6,15 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            var i = 0;
-            while (i <= 10)
+            while (true)
             {
-                if (i % 2 == 0)
-                    Console.WriteLine(i);
+                Console.Write("Type your name: ");
+                var input = Console.ReadLine();
 
-                i++;
+                if (String.IsNullOrWhiteSpace(input))
+                    break;
+
+                Console.WriteLine("@Echo: " + input);
             }
         }
     }
