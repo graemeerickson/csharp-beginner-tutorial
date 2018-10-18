@@ -1,26 +1,27 @@
-﻿namespace HelloWorld
+﻿using System;
+
+namespace HelloWorld
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var season = Season.Spring;
+            string input = "";
 
-            switch (season)
+            while (input != "q")
             {
-                case Season.Spring:
-                case Season.Summer:
-                    System.Console.WriteLine("It's spring or summer.");
-                    break;
-                case Season.Autumn:
-                    System.Console.WriteLine("It's autumn.");
-                    break;
-                case Season.Winter:
-                    System.Console.WriteLine("It's winter.");
-                    break;
-                default:
-                    System.Console.WriteLine("I don't understand that season.");
-                    break;
+                Console.WriteLine("Enter a number between 1 and 10, or enter 'q' to quit:");
+                input = Console.ReadLine();
+                if (input == "q")
+                {
+                    Console.WriteLine("Exiting...");
+                    return;
+                }
+
+                if (Convert.ToInt16(input) > 0 && Convert.ToInt16(input) < 11)
+                    Console.WriteLine("Valid");
+                else
+                    Console.WriteLine("Invalid");
             }
         }
     }
