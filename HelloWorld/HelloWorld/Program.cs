@@ -12,24 +12,16 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter speed limit: ");
-            int speedLimit = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Enter speed of the car: ");
-            int carSpeed = Convert.ToInt32(Console.ReadLine());
-
-            bool isSpeeding = carSpeed > speedLimit;
-
-            if (!isSpeeding)
-                Console.WriteLine("Ok");
-            else
+            for (var i = 1; i <= 10; i++)
             {
-                const int kmPerDemeritPoint = 5;
-                var demeritPoints = (carSpeed - speedLimit) / kmPerDemeritPoint;
-                if (demeritPoints > 12)
-                    Console.WriteLine("License suspended");
-                else
-                    Console.WriteLine("Demerit points: " + demeritPoints);
+                if (i % 2 == 0)
+                    Console.WriteLine(i);
+            }
+
+            for (var i = 10; i >= 1; i--)
+            {
+                if (i % 2 == 0)
+                    Console.WriteLine(i);
             }
         }
     }
