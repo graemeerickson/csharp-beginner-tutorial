@@ -4,15 +4,13 @@
     {
         static void Main(string[] args)
         {
-            var season = Season.Autumn;
+            var season = Season.Spring;
 
             switch (season)
             {
                 case Season.Spring:
-                    System.Console.WriteLine("It's spring.");
-                    break;
                 case Season.Summer:
-                    System.Console.WriteLine("It's summer.");
+                    System.Console.WriteLine("It's spring or summer.");
                     break;
                 case Season.Autumn:
                     System.Console.WriteLine("It's autumn.");
