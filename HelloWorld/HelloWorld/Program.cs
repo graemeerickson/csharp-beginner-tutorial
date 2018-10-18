@@ -6,23 +6,14 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            string input = "";
+            Console.WriteLine("Number 1: ");
+            int input1 = Convert.ToInt32(Console.ReadLine());
 
-            while (input != "q")
-            {
-                Console.WriteLine("Enter a number between 1 and 10, or enter 'q' to quit:");
-                input = Console.ReadLine();
-                if (input == "q")
-                {
-                    Console.WriteLine("Exiting...");
-                    return;
-                }
+            Console.WriteLine("Number 2: ");
+            int input2 = Convert.ToInt32(Console.ReadLine());
 
-                if (Convert.ToInt16(input) > 0 && Convert.ToInt16(input) < 11)
-                    Console.WriteLine("Valid");
-                else
-                    Console.WriteLine("Invalid");
-            }
+            var max = (input1 > input2) ? input1 : input2;
+            Console.WriteLine("Max number: " + max);
         }
     }
 }
