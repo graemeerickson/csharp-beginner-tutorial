@@ -6,17 +6,14 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            var name = "Graeme Erickson";
-            var numbers = new int[] { 1, 2, 3, 4 };
+            var i = 0;
+            while (i <= 10)
+            {
+                if (i % 2 == 0)
+                    Console.WriteLine(i);
 
-            //for (var i = 0; i < name.Length; i++)
-                //Console.WriteLine(name[i]);
-
-            foreach (var character in name)
-                Console.WriteLine(character);
-
-            foreach (var number in numbers)
-                Console.WriteLine(number);
+                i++;
+            }
         }
     }
 }
