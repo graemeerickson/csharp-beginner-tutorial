@@ -2,12 +2,6 @@
 
 namespace HelloWorld
 {
-    public enum ImageOrientation
-    {
-        Landscape,
-        Portrait
-    }
-
     class Program
     {
         static void Main(string[] args)
