@@ -2,18 +2,24 @@
 
 namespace HelloWorld
 {
+    public enum ImageOrientation
+    {
+        Landscape,
+        Portrait
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Number 1: ");
-            int input1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter image width: ");
+            int width = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Number 2: ");
-            int input2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter image height: ");
+            int height = Convert.ToInt32(Console.ReadLine());
 
-            var max = (input1 > input2) ? input1 : input2;
-            Console.WriteLine("Max number: " + max);
+            var orientation = width > height ? ImageOrientation.Landscape : ImageOrientation.Portrait;
+            Console.WriteLine("Image orientation: " + orientation);
         }
     }
 }
